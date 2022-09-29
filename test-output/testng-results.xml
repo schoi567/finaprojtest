@@ -2,58 +2,58 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-28T18:58:49Z" name="Suite" finished-at="2022-09-28T18:58:57Z" duration-ms="8469">
+  <suite started-at="2022-09-29T14:57:30Z" name="Suite" finished-at="2022-09-29T14:57:39Z" duration-ms="9237">
     <groups>
     </groups>
-    <test started-at="2022-09-28T18:58:49Z" name="Test" finished-at="2022-09-28T18:58:57Z" duration-ms="8469">
+    <test started-at="2022-09-29T14:57:30Z" name="Test" finished-at="2022-09-29T14:57:39Z" duration-ms="9237">
       <class name="adminsitetesting.adminlogintest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:adminsitetesting.adminlogintest@420a85c4]" started-at="2022-09-28T18:58:53Z" name="SetUp" finished-at="2022-09-28T18:58:55Z" duration-ms="1652" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:adminsitetesting.adminlogintest@19e7a160]" started-at="2022-09-29T14:57:35Z" name="SetUp" finished-at="2022-09-29T14:57:36Z" duration-ms="1554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="NegativeTest()[pri:0, instance:adminsitetesting.adminlogintest@420a85c4]" started-at="2022-09-28T18:58:55Z" name="NegativeTest" finished-at="2022-09-28T18:58:55Z" duration-ms="332" status="PASS">
+        <test-method signature="NegativeTest()[pri:0, instance:adminsitetesting.adminlogintest@19e7a160]" started-at="2022-09-29T14:57:36Z" name="NegativeTest" finished-at="2022-09-29T14:57:37Z" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NegativeTest -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:adminsitetesting.adminlogintest@420a85c4]" started-at="2022-09-28T18:58:55Z" name="SetUp" finished-at="2022-09-28T18:58:57Z" duration-ms="1742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:adminsitetesting.adminlogintest@420a85c4]" started-at="2022-09-28T18:58:55Z" name="TearDown" finished-at="2022-09-28T18:58:55Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:adminsitetesting.adminlogintest@19e7a160]" started-at="2022-09-29T14:57:37Z" name="TearDown" finished-at="2022-09-29T14:57:37Z" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method signature="PositiveTest()[pri:0, instance:adminsitetesting.adminlogintest@420a85c4]" started-at="2022-09-28T18:58:57Z" name="PositiveTest" finished-at="2022-09-28T18:58:57Z" duration-ms="468" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:adminsitetesting.adminlogintest@19e7a160]" started-at="2022-09-29T14:57:37Z" name="SetUp" finished-at="2022-09-29T14:57:39Z" duration-ms="1745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="PositiveTest()[pri:0, instance:adminsitetesting.adminlogintest@19e7a160]" started-at="2022-09-29T14:57:39Z" name="PositiveTest" finished-at="2022-09-29T14:57:39Z" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PositiveTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:adminsitetesting.adminlogintest@420a85c4]" started-at="2022-09-28T18:58:57Z" name="TearDown" finished-at="2022-09-28T18:58:57Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:adminsitetesting.adminlogintest@19e7a160]" started-at="2022-09-29T14:57:39Z" name="TearDown" finished-at="2022-09-29T14:57:39Z" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- adminsitetesting.adminlogintest -->
       <class name="customersitetesting.customerlogintest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:customersitetesting.customerlogintest@4bf48f6]" started-at="2022-09-28T18:58:49Z" name="SetUp" finished-at="2022-09-28T18:58:51Z" duration-ms="1950" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:customersitetesting.customerlogintest@7674b62c]" started-at="2022-09-29T14:57:30Z" name="SetUp" finished-at="2022-09-29T14:57:32Z" duration-ms="2524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="NegativeTest()[pri:0, instance:customersitetesting.customerlogintest@4bf48f6]" started-at="2022-09-28T18:58:51Z" name="NegativeTest" finished-at="2022-09-28T18:58:51Z" duration-ms="335" status="PASS">
+        <test-method signature="NegativeTest()[pri:0, instance:customersitetesting.customerlogintest@7674b62c]" started-at="2022-09-29T14:57:32Z" name="NegativeTest" finished-at="2022-09-29T14:57:33Z" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NegativeTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:customersitetesting.customerlogintest@4bf48f6]" started-at="2022-09-28T18:58:51Z" name="TearDown" finished-at="2022-09-28T18:58:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:customersitetesting.customerlogintest@4bf48f6]" started-at="2022-09-28T18:58:51Z" name="SetUp" finished-at="2022-09-28T18:58:53Z" duration-ms="1478" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:customersitetesting.customerlogintest@7674b62c]" started-at="2022-09-29T14:57:33Z" name="SetUp" finished-at="2022-09-29T14:57:34Z" duration-ms="1462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="PositiveTest()[pri:0, instance:customersitetesting.customerlogintest@4bf48f6]" started-at="2022-09-28T18:58:53Z" name="PositiveTest" finished-at="2022-09-28T18:58:53Z" duration-ms="473" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:customersitetesting.customerlogintest@7674b62c]" started-at="2022-09-29T14:57:33Z" name="TearDown" finished-at="2022-09-29T14:57:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="PositiveTest()[pri:0, instance:customersitetesting.customerlogintest@7674b62c]" started-at="2022-09-29T14:57:34Z" name="PositiveTest" finished-at="2022-09-29T14:57:35Z" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PositiveTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:customersitetesting.customerlogintest@4bf48f6]" started-at="2022-09-28T18:58:53Z" name="TearDown" finished-at="2022-09-28T18:58:53Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:customersitetesting.customerlogintest@7674b62c]" started-at="2022-09-29T14:57:35Z" name="TearDown" finished-at="2022-09-29T14:57:35Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

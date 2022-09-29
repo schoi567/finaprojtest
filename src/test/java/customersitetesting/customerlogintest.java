@@ -1,9 +1,11 @@
 package customersitetesting;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.Test;
-import junit.framework.Assert;
-import testing.*; 
+import testing.customerloginpage;
+ 
+
 
 
 public class customerlogintest extends customerbaseclass {	
@@ -16,7 +18,7 @@ public class customerlogintest extends customerbaseclass {
 	String ActError = ErrorMsg.getText(); 
 	String ExpError = "Invalid Credentials";
 	
- 	Assert.assertEquals(ActError, ExpError); 
+ 	AssertJUnit.assertEquals(ActError, ExpError); 
 	
 	 
 }
@@ -34,7 +36,7 @@ public class customerlogintest extends customerbaseclass {
     String acttext = Withdraw.getText(); 
     System.out.println(acttext); 
     String expectedtext = "Withdraw"; 
-	Assert.assertEquals(acttext, expectedtext); 
+	AssertJUnit.assertEquals(acttext, expectedtext); 
  
     
 }

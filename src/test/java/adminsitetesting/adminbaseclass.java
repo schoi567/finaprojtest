@@ -11,9 +11,10 @@ WebDriver driver;
 	
 	@BeforeMethod 
 	public void SetUp() {
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe"); 
 		driver = new ChromeDriver(); 
+ 
 		driver.get("http://18.232.38.151:4201");	  
-	//	driver.get("http://18.232.38.151:4201");
 		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);	
 		
@@ -22,7 +23,7 @@ WebDriver driver;
 	
 	@AfterMethod 
 	public void TearDown() {
- //	driver.close(); 
+ 	driver.close(); 
 		
 		
 	} 
