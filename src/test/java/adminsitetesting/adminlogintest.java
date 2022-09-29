@@ -41,7 +41,7 @@ public class adminlogintest extends adminbaseclass{
     	 arrlist.add(idnubmer);} 
 	
 	
-    System.out.println(arrlist.size()); 
+    System.out.println("Number of letter 'ids' in the page is" + arrlist.size()); 
  	Assert.assertEquals(arrlist.size(), 3);
       
 	
