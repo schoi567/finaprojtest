@@ -10,7 +10,7 @@
         stage('Preparation') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'master', url: 'https://github.com/schoi567/finaprojtest.git'
+                git branch: 'main', url: 'https://github.com/schoi567/finaprojtest.git'
             }
         }
         stage('Build') {
